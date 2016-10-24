@@ -29,7 +29,7 @@
   color: $layout-text-color;
   text-decoration: none;
   margin: 0;
-  @include typo-body-1(true);
+  @include typo-body-1;
 
   // Align icons inside link with text
   & .material-icons {
