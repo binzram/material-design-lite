@@ -19,6 +19,37 @@
 // Color order: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, A100, A200,
 // A400, A700.
 
+$palette-bbc:
+"255,255,255"
+"0,0,0"
+"0,158,227"
+"149,193,30"
+"175,18,18"
+"48,38,131"
+"0,105,180"
+"0,150,64"
+"86,86,86"
+"135,135,135"
+"177,177,177"
+"217,217,217"
+"236,236,236"
+;
+
+$palette-bbc-prim-white: nth($palette-bbc, 1);
+$palette-bbc-prim-black: nth($palette-bbc, 2);
+$palette-bbc-prim-lightblue: nth($palette-bbc, 3);
+$palette-bbc-prim-lightgreen: nth($palette-bbc, 4);
+$palette-bbc-secnd-purpur: nth($palette-bbc, 5);
+$palette-bbc-secnd-darkblue: nth($palette-bbc, 6);
+$palette-bbc-secnd-blue: nth($palette-bbc, 7);
+$palette-bbc-secnd-green: nth($palette-bbc, 8);
+$palette-bbc-grey-80: nth($palette-bbc, 9);
+$palette-bbc-grey-60: nth($palette-bbc, 10);
+$palette-bbc-grey-40: nth($palette-bbc, 11);
+$palette-bbc-grey-20: nth($palette-bbc, 12);
+$palette-bbc-grey-10: nth($palette-bbc, 13);
+
+
 $palette-red:
 "255,235,238"
 "255,205,210"
