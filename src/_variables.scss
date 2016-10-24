@@ -119,7 +119,7 @@ $color-accent-contrast: $color-dark-contrast !default;
 // and text-color-secondary-inverse.
 
 $text-color-primary: unquote("rgba(#{$color-black}, 0.87)") !default;
-$text-link-color: unquote("rgb(#{$color-accent})") !default;
+$text-link-color: unquote("rgb(#{$palette-bbc-prim-lightblue})") !default;
 
 // Define whether to target elements directly for typographic enhancements.
 // Turning this off means you need to use mdl-* classes more often.

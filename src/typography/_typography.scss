@@ -57,39 +57,40 @@
     @include typo-display-1;
 
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
   }
 
   h4 {
     @include typo-headline;
 
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }
 
   h5 {
     @include typo-title;
 
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }
 
   h6 {
     @include typo-subhead;
 
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }
 
   p {
     @include typo-body-1;
 
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 
   a {
     color: $text-link-color;
-    font-weight: 500;
+    font-weight: 400;
+    text-decoration: none;
   }
 
   blockquote {
@@ -112,6 +113,10 @@
 
   ul, ol {
     @include typo-body-1;
+  }
+
+  ul li {
+    list-style-type: square;
   }
 }
 
