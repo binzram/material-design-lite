@@ -29,6 +29,9 @@
   background: $card-background-color;
   border-radius: 2px;
   box-sizing: border-box;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
 }
 
 .mdl-card__media {
@@ -45,7 +48,6 @@
   align-items: center;
   color: $card-text-color;
   display: block;
-  display: flex;
   justify-content: stretch;
   line-height: normal;
   padding: $card-vertical-padding $card-horizontal-padding;
