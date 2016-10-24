@@ -50,9 +50,21 @@
     }
   }
 
+  tfoot {
+    tr {
+      th {
+        vertical-align: middle;
+      }
+    }
+  }
+
   td, th {
     padding: 0 $data-table-column-padding 12px $data-table-column-padding;
     text-align: right;
+
+    a {
+      font-weight: 600;
+    }
 
     &:first-of-type {
       padding-left: 24px;
