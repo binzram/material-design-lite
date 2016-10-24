@@ -61,6 +61,18 @@
     &:last-of-type {
       padding-right: 24px;
     }
+
+    &.cell--hide-tablet {
+      @media (max-width: $grid-desktop-breakpoint - 1) {
+        display: none !important;
+      }
+    }
+
+    &.cell--hide-desktop {
+      @media (max-width: $grid-desktop-breakpoint - 1) {
+        display: none !important;
+      }
+    }
   }
 
   td {
