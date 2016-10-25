@@ -86,6 +86,8 @@ const SOURCES = [
   'src/tabs/tabs.js',
   'src/textfield/textfield.js',
   'src/tooltip/tooltip.js',
+  // Custom components
+  'src/selectfield/selectfield.js',
   // Complex components (which reuse base components)
   'src/layout/layout.js',
   'src/data-table/data-table.js',
