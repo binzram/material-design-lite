@@ -64,6 +64,7 @@
     }
   }
   &.mdl-badge--overlap {
+    overflow: visible;
     margin-right: ($badge-size - $badge-overlap);
     &:after {
       right: -($badge-size - $badge-overlap);
