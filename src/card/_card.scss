@@ -32,6 +32,7 @@
   margin-left: 0px;
   margin-bottom: 0px;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .mdl-card__media {
@@ -93,7 +94,7 @@
   line-height: normal;
   width: 100%;
   background-color: rgba(0,0,0,0);
-  padding: 8px;
+  padding: $card-vertical-padding $card-horizontal-padding;
   box-sizing: border-box;
 
   &.mdl-card--border {
