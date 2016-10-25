@@ -19,7 +19,6 @@
 
 .mdl-data-table {
   position: relative;
-  border: $data-table-dividers;
   border-collapse: collapse;
   white-space: nowrap;
   font-size: $data-table-font-size;
@@ -67,7 +66,7 @@
     }
 
     &:first-of-type {
-      padding-left: 24px;
+      padding-left: 27px;
     }
 
     &:last-of-type {
