@@ -187,8 +187,8 @@ $ripple-bg-color: unquote("rgb(#{$color-light-contrast})") !default;
 $layout-nav-color: unquote("rgb(#{$palette-grey-300})") !default;
 
 // Drawer
-$layout-drawer-bg-color: unquote("rgb(#{$palette-grey-50})") !default;
-$layout-drawer-border-color: unquote("rgb(#{$palette-grey-300})") !default;
+$layout-drawer-bg-color: unquote("rgb(#{$palette-bbc-grey-10})") !default;
+$layout-drawer-border-color: unquote("rgb(#{$palette-bbc-grey-40})") !default;
 $layout-text-color: unquote("rgb(#{$color-black})") !default;
 $layout-drawer-navigation-color: unquote("rgb(#{$color-black})") !default;
 $layout-drawer-navigation-link-active-background: unquote("rgb(#{$palette-bbc-prim-lightblue})") !default;
