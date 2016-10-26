@@ -22,6 +22,14 @@ $selectfield-error-color: unquote("rgb(222, 50, 38)") !default;
   max-width: 100%;
   margin: 0;
   padding: $selectfield-vertical-spacing 0;
+
+  &:not(.is-dirty) > select {
+    color: white;
+
+    &> option {
+      color: black;
+    }
+  }
 }
 
 // Optional class to align right.
@@ -71,7 +79,7 @@ $selectfield-error-color: unquote("rgb(222, 50, 38)") !default;
 // Styling for the label / floating label.
 .mdl-selectfield__label {
   bottom: 0;
-  color: $selectfield-label-color;
+  color: $input-text-disabled-text-color;
   font-size: $selectfield-font-size;
   left: 0;
   right: 0;
