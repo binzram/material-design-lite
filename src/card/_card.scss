@@ -86,7 +86,7 @@
   line-height: $card-supporting-text-line-height;
   overflow: hidden;
   padding: $card-vertical-padding $card-horizontal-padding;
-  width: calc(100% - #{($card-horizontal-padding * 2)});
+  width: calc(100% - #{($card-supporting-text-horizontal-padding * 2)});
 
   &.mdl-card--border {
     border-bottom: 1px solid $card-border-color;
